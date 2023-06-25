@@ -1,0 +1,203 @@
+:root {
+    --primary-font:'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    --primary-white-color: #FFFFFF;
+    --primary-black-color: #434455;
+    --secondary-black-color: #2E2F42;
+    --primary-accent-color: #4D5AE5;
+    --secondary-white-color: #F4F4FD;
+    --secondary-accent-color: #404BBF;
+    --primary-bg-color: #FCFCFC;
+}
+
+body {
+    font-family: var(--primary-font);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-black-color);
+    background-color: var(--primary-white-color);
+}
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.nav-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--secondary-black-color);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--secondary-accent-color);
+}
+
+.contacts-list {
+    font-style: normal;
+}
+
+.contacts-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-black-color);
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+    color: var(--secondary-accent-color);
+}
+
+.link {
+    text-decoration: none;
+    font-style: normal;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.logo {
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-accent-color);
+}
+
+.logo-color {
+    color: var(--secondary-black-color);
+}
+
+.section-hero {
+    background-color: var(--secondary-black-color);
+}
+
+.hero-title {
+    color: var(--primary-white-color);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.hero-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--primary-white-color);
+    background-color: var(--primary-accent-color);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: var(--secondary-accent-color);
+}
+
+.features-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--secondary-black-color);
+}
+
+.projects-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--secondary-black-color);
+}
+
+.section-team {
+    background-color: var(--secondary-white-color);
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--secondary-black-color);
+}
+
+.team-cards {
+    background-color: var(--primary-white-color);
+}
+
+.team-names {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--secondary-black-color);
+}
+
+.team-text {
+    font-size: 16px;
+}
+
+.filters-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--primary-accent-color);
+    background-color: var(--secondary-white-color);
+    border: 1px solid #E7E9FC;
+}
+
+.filters-button:hover,
+.filters-button:focus {
+    color: var(--primary-white-color);
+    background-color: var(--secondary-accent-color);
+}
+
+.examples-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--secondary-black-color);
+}
+
+.examples-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-black-color);
+}
+
+.footer {
+    color: var(--secondary-accent-color);
+    background-color: var(--secondary-black-color);
+}
+
+.footer-logo-color {
+    color: var(--secondary-white-color);
+}
+
+.footer-text {
+    color: var(--secondary-white-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
